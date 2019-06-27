@@ -1,0 +1,980 @@
+{
+    "basicGoals": [
+        {
+            "name": "Allow controls to be remapped / reconfigured",
+            "goalType": 0,
+            "description": "Standard for PC games but rare on consoles, remappable controls are one of the best value accessibility features. Many people with motor impairments, whether permanent (eg. stroke), temporary (eg. broken arm) or situational (talking on a phone while playing) benefit greatly from being able to move essential controls into positions that they are able to reach more easily, for example with a single hand, or resting on a table-top using only the top buttons.",
+            "isComplete": false,
+            "tooltipTriggered": false,
+            "url": "http://gameaccessibilityguidelines.com/allow-controls-to-be-remapped-reconfigured",
+            "notRelevant": false
+        },
+        {
+            "name": "Ensure controls are as simple as possible, or provide a simpler alternative",
+            "goalType": 0,
+            "description": "More complex control schemes require higher degrees of both motor and cognitive skill, so avoid using buttons/keys just because they’re there. Having to remember complex combinations of controls, being required to reach every single button on a controller or even just having to press multiple buttons at the same time can all easily result in unnecessary exclusion.",
+            "isComplete": false,
+            "tooltipTriggered": false,
+            "url": "http://gameaccessibilityguidelines.com/ensure-controls-are-as-simple-as-possible-or-provide-a-simpler-alternative",
+            "notRelevant": false
+        },        
+        {
+            "name": "Ensure that all areas of the user interface can be accessed using the same input method as the gameplay",
+            "goalType": 0,
+            "description": "Seems obvious but is often overlooked, resulting in a game that has a mechanic perfectly accessible to a certain group, but that group isn’t actually able to get to the gameplay because the interface and menus use a different type of input.",
+            "isComplete": false,
+            "tooltipTriggered": false,
+            "url": "http://gameaccessibilityguidelines.com/ensure-that-all-areas-of-the-user-interface-can-be-accessed-using-the-same-input-method-as-the-gameplay",
+            "notRelevant": false
+        },        
+        {
+            "name": "Include an option to adjust the sensitivity of controls",
+            "goalType": 0,
+            "description": "There is no one-size-fits-all sensitivity level. As well as personal preference, some gamers have a restricted range of movement so require very high sensitivity, others have difficulty with precision so require very low sensitivity, more still use alternative input devices (such as a head mouse) that have different sensitivity requirements to regular controllers. The option to reduce sensitivity can also reduce the impact of simulation sickness.",
+            "isComplete": false,
+            "tooltipTriggered": false,
+            "url": "http://gameaccessibilityguidelines.com/include-an-option-to-adjust-the-sensitivity-of-controls",
+            "notRelevant": false
+        },        
+        {
+            "name": "Ensure interactive elements / virtual controls are large and well spaced, particularly on small or touch screens",
+            "goalType": 0,
+            "description": "Established research on touch hit areas is a good starting point. 2.4cm has been found to be the ideal size for touch screens, but impractical for smaller phone screens, so 0.96cm is the recommendation for phones. Bear in mind that people with either reduced accuracy or low vision will find even this difficult so use them as a minimum rather than a fixed size to aim for. Buttons also shouldn’t be close to each other. If they are, they need to be larger again to compensate.",
+            "isComplete": false,
+            "tooltipTriggered": false,
+            "url": "http://gameaccessibilityguidelines.com/ensure-interactive-elements-virtual-controls-are-large-and-well-spaced-particularly-on-small-or-touch-screens",
+            "notRelevant": false
+        },
+        {
+            "name": "Allow the game to be started without the need to navigate through multiple levels of menus",
+            "goalType": 1,
+            "description": "Understanding and navigating through complex menus (for example having to work through many levels of team formation, country, kit etc. in a sports game) can present a significant barrier to entry for people with a number of conditions, such as dyspraxia which affects ability to visualise complex systems, or impaired short term memory.",
+            "isComplete": false,
+            "tooltipTriggered": false,
+            "url": "http://gameaccessibilityguidelines.com/allow-the-game-to-be-started-without-the-need-to-navigate-through-multiple-levels-of-menus",
+            "notRelevant": false
+        },
+        {
+            "name": "Use an easily readable default font size",
+            "goalType": 2,
+            "description": "Small text size is a very common complaint amongst people with vision impairments, whether medical (such as long sightedness) or situational (such as small mobile screen, or a living room that does not physically allow for a large TV close to a couch).",
+            "isComplete": false,
+            "tooltipTriggered": false,
+            "url": "http://gameaccessibilityguidelines.com/use-an-easily-readable-default-font-size",
+            "notRelevant": false
+        },
+        {
+            "name": "Use simple clear language",
+            "goalType": 1,
+            "description": "Low reading ability is not often spoken about compared to other impairments. Despite there often being an underlying condition such as dyslexia, there is a major taboo surrounding it. So most people with low reading ability will not admit it to anyone, let alone discuss it with developers.",
+            "isComplete": false,
+            "tooltipTriggered": false,
+            "url": "http://gameaccessibilityguidelines.com/use-simple-clear-language",
+            "notRelevant": false
+        },
+        {
+            "name": "Use simple clear text formatting",
+            "goalType": 2,
+            "description": "For short passages of text, just an easy to read font over an unfussy background makes a big difference to readability, ideally a clean sans serif font with distinct letter shapes (e.g. no mirroring between p,d,p and q) and prominent ascenders and descenders.",
+            "isComplete": false,
+            "tooltipTriggered": false,
+            "url": "http://gameaccessibilityguidelines.com/use-simple-clear-text-formatting",
+            "notRelevant": false
+        },
+        {
+            "name": "Include tutorials",
+            "goalType": 1,
+            "description": "The combination of interaction with instruction gives more means of making an association and remembering, and practising the interaction in the context of gameplay is less demanding on short term memory than having to recall the instruction at the point in the future where the interaction takes place.",
+            "isComplete": false,
+            "tooltipTriggered": false,
+            "url": "http://gameaccessibilityguidelines.com/include-tutorials",
+            "notRelevant": false
+        },
+        {
+            "name": "Allow players to progress through text prompts at their own pace",
+            "goalType": 1,
+            "description": "In addition to low reading age being extremely common (14% of adults have a reading age of below 11 years), distraction can be an issue for all gamers, sometimes resulting in key information being missed. As reading speeds and ability are so varied even within very specific age brackets, it is not possible to set a speed for text to be displayed which will be appropriate for all readers.",
+            "isComplete": false,
+            "tooltipTriggered": false,
+            "url": "http://gameaccessibilityguidelines.com/allow-players-to-progress-through-text-prompts-at-their-own-pace",
+            "notRelevant": false
+        },
+        {
+            "name": "Avoid flickering images and repetitive patterns",
+            "goalType": 1,
+            "description": "In 1997, a Pokemon cartoon containing a red flickering sequence was aired in Japan, resulting in more than 600 children being admitted to hospital after suffering epileptic seizures. Three-quarters of those had never suffered from symptoms of epilepsy before. Although video games do not create epilepsy in people who do not have it, there are at least 27 cases of people having their first seizure while gaming, and physical injury from seizures is common.",
+            "isComplete": false,
+            "tooltipTriggered": false,
+            "url": "http://gameaccessibilityguidelines.com/avoid-flickering-images-and-repetitive-patterns",
+            "notRelevant": false
+        },
+        {
+            "name": "Ensure no essential information is conveyed by a colour alone",
+            "goalType": 2,
+            "description": "Difficulty perceiving red or green in particular is very common, affecting around 8-10% of males, making both green and red look a brownish green, and there are several other less common conditions that affect other colours – tritanopia, difficulty perceiving yellow, cataracts, which can add yellow, even achromatopsia, a very rare condition where you have no colour vision at al, and colourblindness acquired through brain/nerve damage, which can alter colours in very unpredictable ways, even swapping them around.",
+            "isComplete": false,
+            "tooltipTriggered": false,
+            "url": "http://gameaccessibilityguidelines.com/ensure-no-essential-information-is-conveyed-by-a-colour-alone",
+            "notRelevant": false
+        },
+        {
+            "name": "If the game uses field of view (3D engine only), set an appropriate default for expected viewing environment",
+            "goalType": 2,
+            "description": "Every 3D game has a field of view angle. If the field of view is significantly different to what the eye/brain expects to see, it can result in motion sickness. This can be extreme, resulting in nausea and disorentation strong enough that play duration in excess of a few minutes can become impossible.",
+            "isComplete": false,
+            "tooltipTriggered": false,
+            "url": "http://gameaccessibilityguidelines.com/if-the-game-uses-field-of-view-3d-engine-only-set-an-appropriate-default-for-the-expected-viewing-environment",
+            "notRelevant": false
+        },
+        {
+            "name": "Avoid VR simulation sickness triggers",
+            "goalType": 2,
+            "description": "Simulation sickness occurs due to some of your senses telling your brain that one thing is happening, while other senses are busy telling your brain that something else is happening – a sensory mismatch between your visual system and your vestibular system. When your visual system says you are moving but your vestibular system says you are stationary.",
+            "isComplete": false,
+            "tooltipTriggered": false,
+            "url": "http://gameaccessibilityguidelines.com/avoid-vr-simulation-sickness-triggers/",
+            "notRelevant": false
+        },
+        {
+            "name": "Provide high contrast between text/UI and background",
+            "goalType": 2,
+            "description": "After text size, contrast is one of the most common UI complaints, There are common vision impairments that specifically result in a loss of contrast sensitivity, and others such as colorblindness that can be affected by contrast too.",
+            "isComplete": false,
+            "tooltipTriggered": false,
+            "url": "http://gameaccessibilityguidelines.com/provide-high-contrast-between-text-and-background",
+            "notRelevant": false
+        },
+        {
+            "name": "Ensure interactive elements / virtual controls are large and well spaced, particularly on small or touch screens",
+            "goalType": 2,
+            "description": "Established research on touch hit areas is a good starting point. 2.4cm has been found to be the ideal size for touch screens, but impractical for smaller phone screens, so 0.96cm is the recommendation for phones.",
+            "isComplete": false,
+            "tooltipTriggered": false,
+            "url": "http://gameaccessibilityguidelines.com/ensure-interactive-elements-virtual-controls-are-large-and-well-spaced-particularly-on-small-or-touch-screens",
+            "notRelevant": false
+        },
+        {
+            "name": "Provide subtitles for all important speech",
+            "goalType": 3,
+            "description": "Important speech means that which would make a significant impact to the experience without; either narratively or to someone’s ability to play. In most cases this means speech by protagonists, and instructions and prompts given through speech.",
+            "isComplete": false,
+            "tooltipTriggered": false,
+            "url": "http://gameaccessibilityguidelines.com/provide-subtitles-for-all-important-speech/",
+            "notRelevant": false
+        },
+        {
+            "name": "Provide separate volume controls or mutes for effects, speech and background / music",
+            "goalType": 3,
+            "description": "Loss of hearing can affect certain frequencies more than others, so being able to control volume independently is essential.",
+            "isComplete": false,
+            "tooltipTriggered": false,
+            "url": "http://gameaccessibilityguidelines.com/provide-separate-volume-controls-or-mutes-for-effects-speech-and-background-music",
+            "notRelevant": false
+        },
+        {
+            "name": "Ensure no essential information is conveyed by sounds alone",
+            "goalType": 3,
+            "description": "Conveying essential information by sound alone is an obvious barrier for people with physical hearing loss, but is it also causes problems for situational impairments, such as playing in a noisy environment, through poor quality speakers, or with sound muted to avoid waking the baby.",
+            "isComplete": false,
+            "tooltipTriggered": false,
+            "url": "http://gameaccessibilityguidelines.com/ensure-no-essential-information-is-conveyed-by-sounds-alone",
+            "notRelevant": false
+        },
+        {
+            "name": "If any subtitles / captions are used, present them in a clear, easy to read way",
+            "goalType": 3,
+            "description": "The most common complaints about subtitle presentation are size, contrast, and the amount of text on screen at any one time. ",
+            "isComplete": false,
+            "tooltipTriggered": false,
+            "url": "http://gameaccessibilityguidelines.com/if-any-subtitles-captions-are-used-present-them-in-a-clear-easy-to-read-way/",
+            "notRelevant": false
+        },
+        {
+            "name": "Ensure that speech input is not required, and included only as a supplementary / alternative input method",
+            "goalType": 4,
+            "description": "Relying on speech recognition excludes all players who are either physically unable to speak, physically unable to speak to an accurate enough level to be picked up by voice recognition, or cognitively unable to understand language.",
+            "isComplete": false,
+            "tooltipTriggered": false,
+            "url": "http://gameaccessibilityguidelines.com/ensure-that-speech-input-is-not-required-and-included-only-as-a-supplementary-alternative-input-method",
+            "notRelevant": false
+        },
+        {
+            "name": "Offer a wide choice of difficulty levels",
+            "goalType": 5,
+            "description": "Offering a simple choice of difficulty is a fairly blunt but still good first step in accessibility, allowing some flexibility in the main challenge involved, such as level of AI, speed of enemies or difficulty of puzzles. This can be taken further by offering more detailed options for individual elements of game difficulty.",
+            "isComplete": false,
+            "tooltipTriggered": false,
+            "url": "http://gameaccessibilityguidelines.com/offer-a-wide-choice-of-difficulty-levels",
+            "notRelevant": false
+        },
+        {
+            "name": "Provide details of accessibility features on packaging and/or website",
+            "goalType": 5,
+            "description": "Buying a game only to find out that you can’t play it is a real issue, easily solved by just letting people know what features are in a game. Without that, the work on those features may well go to waste.",
+            "isComplete": false,
+            "tooltipTriggered": false,
+            "url": "http://gameaccessibilityguidelines.com/provide-details-of-accessibility-features-on-packaging-andor-website",
+            "notRelevant": false
+        },
+        {
+            "name": "Provide details of accessibility features in-game",
+            "goalType": 5,
+            "description": "Accessibility features are not yet a standard expectation, players often do not know to go looking for them. Without signposting, some of the work on those features can go to waste.",
+            "isComplete": false,
+            "tooltipTriggered": false,
+            "url": "http://gameaccessibilityguidelines.com/provide-details-of-accessibility-features-in-game",
+            "notRelevant": false
+        },
+        {
+            "name": "Ensure that all settings are saved/remembered",
+            "goalType": 5,
+            "description": "Customising lots of settings can be a long winded and difficult task for a wide range of different impairments, as well as a hindrance for everyone else.",
+            "isComplete": false,
+            "tooltipTriggered": false,
+            "url": "http://gameaccessibilityguidelines.com/ensure-that-all-settings-are-savedremembered",
+            "notRelevant": false
+        },
+        {
+            "name": "Solicit accessibility feedback",
+            "goalType": 5,
+            "description": "While including people with disabilities in playtesting and user research is the most effective way of getting precise and detailed observations, simply asking for feedback online is a cheap and effective way to gather a wide range of input.",
+            "isComplete": false,
+            "tooltipTriggered": false,
+            "url": "http://gameaccessibilityguidelines.com/solicit-accessibility-feedback/",
+            "notRelevant": false
+        }
+    ],
+    "intermediateGoals": [
+        {
+            "name": "Support more than one input device",
+            "goalType": 0,
+            "description": "Different input devices involve different types of motor ability. Some are more suited to gross motor movement, some to fine. Some have complex motor-cognitive metaphors (eg. pushing a mouse away from you to move an on-screen cursor upwards), some are direct. Accessibility specific input devices also map to different mainstream devices, for example accessibility switches map to digital buttons, and eye tracking maps to mouse cursor movement. So there is no more or less accessible input device, different devices work better for different people",
+            "isComplete": false,
+            "tooltipTriggered": false,
+            "url": "http://gameaccessibilityguidelines.com/support-more-than-one-input-device/",
+            "notRelevant": false
+        },        
+        {
+            "name": "Make interactive elements that require accuracy (eg. cursor/touch controlled menu options) stationary",
+            "goalType": 0,
+            "description": "A common example of a moving interface is an entire menu that moves as the controller does, eg. moving your mouse left makes the menu scroll to the right. Even a subtle effect like this can cause difficulty, literally trying to hit a moving target, with obvious consequences if a player has any difficulty with precision or timing.",
+            "isComplete": false,
+            "tooltipTriggered": false,
+            "url": "http://gameaccessibilityguidelines.com/make-interactive-elements-that-require-accuracy-eg-cursortouch-controlled-menu-options-stationary/",
+            "notRelevant": false
+        },        
+        {
+            "name": "Ensure that multiple simultaneous actions (eg. click/drag or swipe) are not required",
+            "goalType": 0,
+            "description": "Holding something down rather than tapping causes difficulty for one group, and moving in a precise direction causes problems for another, so combining the two into a drag or swipe multiples the issue.",
+            "isComplete": false,
+            "tooltipTriggered": false,
+            "url": "http://gameaccessibilityguidelines.com/ensure-that-multiple-simultaneous-actions-eg-clickdrag-or-swipe-are-not-required-and-included-only-as-a-supplementary-alternative-input-method",
+            "notRelevant": false
+        },        
+        {
+            "name": "Ensure that all key actions can be carried out by digital controls (pad / keys / presses), with more complex input (eg. analogue, speech, gesture) not required",
+            "goalType": 0,
+            "description": "Many interactions that seem natural and intuitive to many people cause significant difficulty for others. A mouse for example involves calculating and moving along a precise trajectory, maintaining a steady velocity, the spatial metaphor of moving on a different plane to the screen, and so on – a great deal more cognitive and motor ability than simply pressing a button.",
+            "isComplete": false,
+            "tooltipTriggered": false,
+            "url": "http://gameaccessibilityguidelines.com/ensure-that-all-key-actions-can-be-carried-out-by-digital-controls-pad-keys-presses-with-more-complex-input-eg-analogue-speech-gesture-not-required-and-included-only-as-supplementary-al",
+            "notRelevant": false
+        },        
+        {
+            "name": "Include an option to adjust the game speed",
+            "goalType": 0,
+            "description": "Issues with precise timing can be alleviated very effectively with a choice of game speed (slowing the entire game down into slow motion).",
+            "isComplete": false,
+            "tooltipTriggered": false,
+            "url": "http://gameaccessibilityguidelines.com/include-an-option-to-adjust-the-game-speed/",
+            "notRelevant": false
+        },        
+        {
+            "name": "Avoid repeated inputs (button-mashing/quick time events)",
+            "goalType": 0,
+            "description": "These require rapid precision, which for gamers with a wide range of strength, fatigue, pain, speed or accuracy related impairments can be a huge barrier or even exclude completely, especially in the case of quick time events where the level of accurate timing required is increased dramatically.",
+            "isComplete": false,
+            "tooltipTriggered": false,
+            "url": "http://gameaccessibilityguidelines.com/avoid-repeated-inputs-button-mashingquick-time-events/",
+            "notRelevant": false
+        },        
+        {
+            "name": "If producing a PC game, support windowed mode for compatibility with overlaid virtual keyboards",
+            "goalType": 0,
+            "description": "Many players who are unable to use a physical keyboard use a virtual on-screen keyboard, that can be controlled by a mouse or by assistive tech such as eye-gaze or switch. For these to work, the game must be in windowed mode, and allow other applications to sit over the top.",
+            "isComplete": false,
+            "tooltipTriggered": false,
+            "url": "http://gameaccessibilityguidelines.com/if-producing-a-pc-game-support-windowed-mode-for-compatibility-with-overlaid-virtual-keyboards/",
+            "notRelevant": false
+        },        
+        {
+            "name": "Avoid / provide alternatives to requiring buttons to be held down",
+            "goalType": 0,
+            "description": "Holding requires much greater motor ability than pressing, particularly on buttons that require more strength to operate, such as L3/R3 (pushing in the sticks).",
+            "isComplete": false,
+            "tooltipTriggered": false,
+            "url": "http://gameaccessibilityguidelines.com/avoid-provide-alternatives-to-requiring-buttons-to-be-held-down/",
+            "notRelevant": false
+        },        
+        {
+            "name": "Allow interfaces to be rearranged",
+            "goalType": 0,
+            "description": "Interface elements that need to be used frequently, such as menus in an MMO or on-screen virtual controls on a touchscreen, can require a significant amount of motor effort to use. Their position plays a large part in this. Some people find movement back and forwards between distant parts of the screen to be extremely tiring or even painful, others find it difficult or even impossible to reach certain areas.",
+            "isComplete": false,
+            "tooltipTriggered": false,
+            "url": "http://gameaccessibilityguidelines.com/allow-interfaces-to-be-rearranged/",
+            "notRelevant": false
+        },        
+        {
+            "name": "Allow interfaces to be resized",
+            "goalType": 0,
+            "description": "As well as being an important way to cater for people who have different screen sizes, manually resizable interfaces are also useful for people who either have difficulty seeing small elements or who don’t have the fine motor ability required to tap/click on them.",
+            "isComplete": false,
+            "tooltipTriggered": false,
+            "url": "http://gameaccessibilityguidelines.com/allow-interfaces-to-be-resized/",
+            "notRelevant": false
+        },        
+        {
+            "name": "Provide a macro system",
+            "goalType": 0,
+            "description": "Games that involve a large amount of repetitive sequences of actions can result in pain and fatigue, in turn resulting in reduced play sessions. Macro functionality, i.e. being able to set up complex sequences of actions that can then be executed by a single click or keypress, can provide a hugely beneficial relief from this, significantly reducing the demands that interacting with the game puts on the player.",
+            "isComplete": false,
+            "tooltipTriggered": false,
+            "url": "http://gameaccessibilityguidelines.com/provide-a-macro-system/",
+            "notRelevant": false
+        },        
+        {
+            "name": "Do not rely on motion tracking of specific body types",
+            "goalType": 0,
+            "description": "Motor accessibility in gaming traditionally means ability to operate a controller. Aside from a few gesture related games, this has meant that the motor requirements of gaming have centred on your hands and arms. With motion tracking, VR in particular, the range and complexity of motor ability required in order to participate has increased considerably. Sometimes insurmountably; in other circumstances play can be enabled through flexible design.",
+            "isComplete": false,
+            "tooltipTriggered": false,
+            "url": "http://gameaccessibilityguidelines.com/do-not-rely-on-motion-tracking-of-specific-body-types/",
+            "notRelevant": false
+        },
+        {
+            "name": "Include contextual in-game help/guidance/tips",
+            "goalType": 1,
+            "description": "More effective again than separate tutorials, this is an area that the games industry generally does well at, having long since left behind the days of thick printed manuals. Gradually introducing concepts to the player during gameplay not only gives greater context, but also avoids overburdening gamers who are unable to process complex systems/concepts with too much information at once, and is more useful than upfront instruction/tutorial screens for people with short term memory issues.",
+            "isComplete": false,
+            "tooltipTriggered": false,
+            "url": "http://gameaccessibilityguidelines.com/include-contextual-in-game-helpguidancetips",
+            "notRelevant": false
+        },
+        {
+            "name": "Indicate / allow reminder of current objectives during gameplay",
+            "goalType": 1,
+            "description": "What you’re meant to be doing or where you’re meant to be going can sometimes be difficult to recall for any player, but especially for people who have impaired memory, or who need to take long breaks between play sessions.",
+            "isComplete": false,
+            "tooltipTriggered": false,
+            "url": "http://gameaccessibilityguidelines.com/indicate-allow-reminder-of-current-objectives-during-gameplay",
+            "notRelevant": false
+        },
+        {
+            "name": "Indicate / allow reminder of controls during gameplay",
+            "goalType": 1,
+            "description": "Complex controls can sometimes be difficult to recall for any player, but especially with impaired memory. Being able to access reminders through UI can help greatly, and not only for the basic controls themselves – providing summaries of any game-specific mechanics or actions covered in tutorials to be accessed at a later date is also beneficial.",
+            "isComplete": false,
+            "tooltipTriggered": false,
+            "url": "http://gameaccessibilityguidelines.com/indicate-allow-reminder-of-controls-during-gameplay",
+            "notRelevant": false
+        },
+        {
+            "name": "Include a means of practicing without failure, such as a practice level or sandbox mode",
+            "goalType": 1,
+            "description": "Practicing is an extremely efficient means of learning how to play. However to practice during actual gameplay requires a good base level of ability, without this the liklehood of failure means that effective practice is not possible.",
+            "isComplete": false,
+            "tooltipTriggered": false,
+            "url": "http://gameaccessibilityguidelines.com/include-a-means-of-practicing-without-failure-such-as-a-practice-level-or-sandbox-mode",
+            "notRelevant": false
+        },
+        {
+            "name": "Employ a simple, clear narrative structure",
+            "goalType": 1,
+            "description": "Complex twisting narratives can easily lose or confuse anyone, but particularly gamers who have difficulty with memory or with understanding complex concepts.",
+            "isComplete": false,
+            "tooltipTriggered": false,
+            "url": "http://gameaccessibilityguidelines.com/employ-a-simple-clear-narrative-structure",
+            "notRelevant": false
+        },
+        {
+            "name": "If using a long overarching narrative, provide summaries of progress",
+            "goalType": 1,
+            "description": "Remembering what has happened to date in a narrative can be difficult for people who have impaired short or long term memory, but also other people without permanent impairments, for example someone who just hasn’t played the game in a while.",
+            "isComplete": false,
+            "tooltipTriggered": false,
+            "url": "http://gameaccessibilityguidelines.com/if-using-a-long-overarching-narrative-provide-summaries-of-progress",
+            "notRelevant": false
+        },
+        {
+            "name": "Ensure no essential information (especially instructions) is conveyed by text alone, reinforce with visuals and/or speech",
+            "goalType": 1,
+            "description": "Reinforcing textual information with images and sounds can be useful for all players. But it is particularly valuable for people who have difficulty with reading – not just in terms of the reading itself, but also because being confronted with large blocks of text can actually often be so intimidating that the text is skipped entirely.",
+            "isComplete": false,
+            "tooltipTriggered": false,
+            "url": "http://gameaccessibilityguidelines.com/ensure-no-essential-information-especially-instructions-is-conveyed-by-text-alone-reinforce-with-visuals-andor-speech",
+            "notRelevant": false
+        },
+        {
+            "name": "Give a clear indication that interactive elements are interactive",
+            "goalType": 1,
+            "description": "Players with cognitive or vision impairments can have difficulty distinguishing which UI elements or in-game items are intended to be interactive, and are sometimes not familiar with the same metaphors and conventions as other players.",
+            "isComplete": false,
+            "tooltipTriggered": false,
+            "url": "http://gameaccessibilityguidelines.com/give-a-clear-indication-that-interactive-elements-are-interactive",
+            "notRelevant": false
+        },
+        {
+            "name": "Provide an option to turn off / hide background movement",
+            "goalType": 1,
+            "description": "Background animation can distract greatly from elements that are important to gameplay, particularly for attention related cognitive conditions such as ADHD. It can sometimes be so distracting that it can make essential information and interactive elements difficult to see at all.",
+            "isComplete": false,
+            "tooltipTriggered": false,
+            "url": "http://gameaccessibilityguidelines.com/provide-an-option-to-turn-off-hide-background-movement",
+            "notRelevant": false
+        },
+        {
+            "name": "Support voice chat as well as text for multiplayer games",
+            "goalType": 1,
+            "description": "It should not be used instead of text however, as that would exclude players who can’t hear/talk, don’t have the necessary hardware, have situational impairments such as a noisy room or not wanting to wake the baby, or simply prefer not to use their voice. Both options should be provided.",
+            "isComplete": false,
+            "tooltipTriggered": false,
+            "url": "http://gameaccessibilityguidelines.com/support-voice-chat-as-well-as-text-for-multiplayer-games",
+            "notRelevant": false
+        },
+        {
+            "name": "Provide gameplay thumbnails with game saves",
+            "goalType": 1,
+            "description": "Generic save titles (eg. save game 1) are difficult to remember. Being able to enter your own save game name is better, but better again is to reinforce further with a thumbnail of the moment at which the game was saved. As with other memory related guidelines, this is also of benefit to people who may have simply not played the game in a while.",
+            "isComplete": false,
+            "tooltipTriggered": false,
+            "url": "http://gameaccessibilityguidelines.com/provide-gameplay-thumbnails-with-game-saves",
+            "notRelevant": false
+        },
+        {
+            "name": "Provide separate volume controls or mutes for effects, speech and background/music",
+            "goalType": 1,
+            "description": "Too many different sources of information can make it difficult to focus on any of them. There is even a specific condition (auditory processing disorder) for which simultaneous sounds can be impossible to distinguish or even distressing.",
+            "isComplete": false,
+            "tooltipTriggered": false,
+            "url": "http://gameaccessibilityguidelines.com/provide-separate-volume-controls-or-mutes-for-effects-speech-and-background-music",
+            "notRelevant": false
+        },
+        {
+            "name": "Ensure sound / music choices for each key objects / events are distinct from each other",
+            "goalType": 1,
+            "description": "Distinct sound design is useful for all players, but can also be an extremely helpful reinforcement when it is difficult to distinguish things by other means. Some games can even be playable by gamers who have little or no vision at all, if key sounds are all distinct. A famous example is Brice Mellen, a blind from birth gamer who defeated Mortal Kombat creator Ed Boon at his own game.",
+            "isComplete": false,
+            "tooltipTriggered": false,
+            "url": "http://gameaccessibilityguidelines.com/ensure-sound-music-choices-for-each-key-objects-events-are-distinct-from-each-other",
+            "notRelevant": false
+        },
+        {
+            "name": "Provide a choice of text colour, low/high contrast choice as a minimum",
+            "goalType": 1,
+            "description": "Although high contrast is beneficial for very large numbers of people and circumstances, very high contrast (black on white) can cause difficulty for people with certain forms of dyslexia. ifferent colour combinations work better for different people, for example dark blue text on a light blue background can work well for some people with irlen-related dyslexia, and yellow text on a dark blue background can work well for cataracts, so the best possible option is a free choice of foreground and background colours.",
+            "isComplete": false,
+            "tooltipTriggered": false,
+            "url": "http://gameaccessibilityguidelines.com/provide-a-choice-of-text-colour-lowhigh-contrast-choice-as-a-minimum",
+            "notRelevant": false
+        },
+        {
+            "name": "Highlight important words",
+            "goalType": 1,
+            "description": "Too much text can be intimidating, off-putting and difficult to comprehend for many people, including the 14% of adults who have difficulty reading. It can also be an inconvenient distraction for other people who just want to extract the information as efficiently as possible and get back to playing.",
+            "isComplete": false,
+            "tooltipTriggered": false,
+            "url": "http://gameaccessibilityguidelines.com/highlight-important-words/",
+            "notRelevant": false
+        },
+        {
+            "name": "Avoid (or provide option to disable) any difference between controller movement and camera movement",
+            "goalType": 2,
+            "description": "Common issues are asynchronous weapon bob/walk bob, motion blur, mouse smoothing, camera shakes or tilting, or changing where the character is looking without the player’s input.",
+            "isComplete": false,
+            "tooltipTriggered": false,
+            "url": "http://gameaccessibilityguidelines.com/avoid-or-provide-option-to-disable-any-difference-between-controller-movement-and-camera-movement-such-as-weaponwalk-bobbing-or-mouse-smoothing",
+            "notRelevant": false
+        },
+        {
+            "name": "Use surround sound",
+            "goalType": 2,
+            "description": "Even just stereo panning makes a huge difference, but surround sound rather than stereo allows for much more effective identification again of where sounds are coming from, particularly important for people with impaired vision who rely on sound cues either as reinforcement or as a sole means of understanding gameplay.",
+            "isComplete": false,
+            "tooltipTriggered": false,
+            "url": "http://gameaccessibilityguidelines.com/use-surround-sound",
+            "notRelevant": false
+        },
+        {
+            "name": "Ensure screenreader support for mobile devices",
+            "goalType": 2,
+            "description": "Screenreaders are built into the iOS (Voiceover) and Android (TalkBack) operating systems, and work in a different way to other platforms – dragging your finger around the screen simply reads out whatever your finger is over. Assuming you are developing natively using UIKit etc (many engines block screenreader support) it can be surprisingly easy. Many mobile games have simple interfaces perfectly suited to this kind of navigation, so the bulk of the work is just making sure things are labelled correctly, and also announcing when something occurs that is not the result of a player’s action.",
+            "isComplete": false,
+            "tooltipTriggered": false,
+            "url": "http://gameaccessibilityguidelines.com/ensure-screenreader-support-for-mobile-devices",
+            "notRelevant": false
+        },
+        {
+            "name": "Provide an option to adjust contrast",
+            "goalType": 2,
+            "description": "Low contrast is a very common problem, not just for permanent visual impairments but also for situational ones, such as playing in direct sunlight or on a device that is in power saving mode. A high contrast option can be either a post-processing filter (eg. gamma), a set of alternative assets, with for example lighter backgrounds and darker characters than the default, or even something as simple as a tintable layer sitting between the foreground and background – something that took the developer of Epic Eric around 1.5 hours to implement.",
+            "isComplete": false,
+            "tooltipTriggered": false,
+            "url": "http://gameaccessibilityguidelines.com/provide-an-option-to-adjust-contrast/",
+            "notRelevant": false
+        },
+        {
+            "name": "Provide a choice of cursor / crosshair colours / designs",
+            "goalType": 2,
+            "description": "Crosshair / cursor design can often be a key part of an aesthetic, but can also result in visibility or contrast issues, with a cursor that is fine for some people being too small or feint for others to be able to see easily, or in colours that do not work with some forms of colour blindness.",
+            "isComplete": false,
+            "tooltipTriggered": false,
+            "url": "http://gameaccessibilityguidelines.com/provide-a-choice-of-cursor-crosshair-colours-designs",
+            "notRelevant": false
+        },
+        {
+            "name": "Ensure manual / website are provided in a screenreader friendly format",
+            "goalType": 2,
+            "description": "People with visual or cognitive impairments often rely on screenreader software to read out digital text to them, even if they have a degree of residual vision.",
+            "isComplete": false,
+            "tooltipTriggered": false,
+            "url": "http://gameaccessibilityguidelines.com/ensure-manual-website-are-provided-in-a-screenreader-friendly-format",
+            "notRelevant": false
+        },
+        {
+            "name": "Avoid placing essential temporary information outside the player’s eye-line",
+            "goalType": 2,
+            "description": "Many vision impairments can result in loss of peripheral vision. While arranging interface elements along the edges of a screen is fine as players will familiarise themselves with the layout and know where to look for them, avoid placing temporary elements that are essential to gameplay (such as God of War 3′s quick time event indicators) far from where the player’s focus is likely to be, as they can easily be missed.",
+            "isComplete": false,
+            "tooltipTriggered": false,
+            "url": "http://gameaccessibilityguidelines.com/avoid-placing-essential-temporary-information-outside-the-players-eye-line",
+            "notRelevant": false
+        },
+        {
+            "name": "Allow interfaces to be resized",
+            "goalType": 2,
+            "description": "As well as being an important way to cater for people who have different screen sizes, manually resizable interfaces are also useful for people who either have difficulty seeing small elements or who don’t have the fine motor ability required to tap/click on them.",
+            "isComplete": false,
+            "tooltipTriggered": false,
+            "url": "http://gameaccessibilityguidelines.com/allow-interfaces-to-be-resized",
+            "notRelevant": false
+        },
+        {
+            "name": "Keep background noise to minimum during speech",
+            "goalType": 3,
+            "description": "Background noise clashing with speech is a commonly cited reason for turning subtitles on, even without hearing impairments.",
+            "isComplete": false,
+            "tooltipTriggered": false,
+            "url": "http://gameaccessibilityguidelines.com/keep-background-noise-to-minimum-during-speech",
+            "notRelevant": false
+        },
+        {
+            "name": "Provide subtitles for supplementary speech",
+            "goalType": 3,
+            "description": "Subtitling is one of the most commonly seen accessibility features, with some publishers (such as Ubisoft) even requiring it. It benefits a huge range of players, not only those with permanent hearing impairments, but other conditions such as ADHD, also if the spoken language is not your own first language, and situational impairments such as playing in a noisy environment, through poor quality hardware, or having to play on mute to avoid waking the baby.",
+            "isComplete": false,
+            "tooltipTriggered": false,
+            "url": "http://gameaccessibilityguidelines.com/provide-subtitles-for-supplementary-speech/",
+            "notRelevant": false
+        },
+        {
+            "name": "Ensure subtitles/captions are or can be turned on before any sound is played",
+            "goalType": 3,
+            "description": "The most commonly missed piece of subtitling/captioning is the introductory cinematic. Either ensure this is subtitled by default, or ensure that the option to turn subtitles on is provided before the first relevant sound plays.",
+            "isComplete": false,
+            "tooltipTriggered": false,
+            "url": "http://gameaccessibilityguidelines.com/ensure-subtitles-captions-are-or-can-be-enabled-before-any-sound-is-played",
+            "notRelevant": false
+        },
+        {
+            "name": "Provide captions or visuals for significant background sounds",
+            "goalType": 3,
+            "description": "Communicating all sound by text is usually neither practical or desirable, but anything that’s important should be. To judge this, consider whether the sound could be totally removed without much impact to story, gameplay or atmosphere. If not, reinforce them with either captions or visuals.",
+            "isComplete": false,
+            "tooltipTriggered": false,
+            "url": "http://gameaccessibilityguidelines.com/provide-captions-or-visuals-for-significant-background-sounds/",
+            "notRelevant": false
+        },
+        {
+            "name": "Provide a visual indication of who is currently speaking",
+            "goalType": 3,
+            "description": "Conversations can be difficult to follow when you can’t hear the distinguishable accents. A difference in colour for each speaker, floating of text towards the side of the screen that the speaker is on, naming the current speaker, or even representing the speaker’s face all help – and a combination of them used together is even better.",
+            "isComplete": false,
+            "tooltipTriggered": false,
+            "url": "http://gameaccessibilityguidelines.com/provide-a-visual-indication-of-who-is-currently-speaking",
+            "notRelevant": false
+        },
+        {
+            "name": "Allow subtitle/caption presentation to be customised",
+            "goalType": 3,
+            "description": "Some people have no access to audio, and are reliant on understanding every single word, so need them to be as clear and obvious as possible, with access to extra information such as who is currently speaking. Some others use subtitles for localisation, so still need them to be clear and obvious, but have no need for extra information. Others still only glance at the text occasionally, for example when an explosion goes off during an important moment of exposition, or when a word is missed due to it being spoken in a hard to understand foreign/alien/robotic accent.",
+            "isComplete": false,
+            "tooltipTriggered": false,
+            "url": "http://gameaccessibilityguidelines.com/allow-subtitlecaption-presentation-to-be-customised/",
+            "notRelevant": false
+        },
+        {
+            "name": "Provide visual means of communicating in multiplayer",
+            "goalType": 3,
+            "description": "Either environmental, allowing points on the map to be pinged for other players or markers left directly in the game environment, or directly, via player emotes.",
+            "isComplete": false,
+            "tooltipTriggered": false,
+            "url": "http://gameaccessibilityguidelines.com/support-visual-means-of-communicating-in-multiplayer",
+            "notRelevant": false
+        },
+        {
+            "name": "Allow a preference to be set for playing online multiplayer with players who will only play with / are willing to play without voice chat",
+            "goalType": 3,
+            "description": "If players are either unable to hear other players’ speech, or unable (due to either lack of vocal ability or suitable hardware) or simply prefer not to to communicate by speech, this can have an impact on multiplayer play, resulting in players being intentionally kicked out or excluded from games.",
+            "isComplete": false,
+            "tooltipTriggered": false,
+            "url": "http://gameaccessibilityguidelines.com/allow-a-preference-to-be-set-for-playing-online-multiplayer-with-players-who-will-only-play-with-are-willing-to-play-without-voice-chat",
+            "notRelevant": false
+        },
+        {
+            "name": "Ensure that all important supplementary information conveyed by audio is replicated in text / visuals",
+            "goalType": 3,
+            "description": "Accessibility for hearing impairments is often focussed solely on subtitles – ensuring that speech can be understood. However games are not solely based on speech, there is a greater requirement in games than in other media on being able to understand audio cues.",
+            "isComplete": false,
+            "tooltipTriggered": false,
+            "url": "http://gameaccessibilityguidelines.com/ensure-that-all-important-supplementary-information-eg-the-direction-you-are-being-shot-from-conveyed-by-audio-is-replicated-in-text-visuals",
+            "notRelevant": false
+        },
+        {
+            "name": "Provide a stereo/mono toggle",
+            "goalType": 3,
+            "description": "Unilateral deafness or other asymmetric hearing impairments can mean missing important sounds that occur only from one direction. A mono toggle gives the option of combining both audio channels and playing the single combined channel through both left and right speakers/headphones, meaning every sound is available from both sides.",
+            "isComplete": false,
+            "tooltipTriggered": false,
+            "url": "http://gameaccessibilityguidelines.com/provide-a-stereomono-toggle",
+            "notRelevant": false
+        },
+        {
+            "name": "Base speech recognition on individual words from a small vocabulary (eg. ‘yes’ ‘no’ ‘open’)",
+            "goalType": 4,
+            "description": "Most people with speech impairments are still able to communicate vocally in some way, but with impaired range or accuracy. Matching against a few simple words allows more flexibility than matching against complex phrases, making it easier to avoid problems with not only minor speech impairments but also regional accents.",
+            "isComplete": false,
+            "tooltipTriggered": false,
+            "url": "http://gameaccessibilityguidelines.com/base-speech-recognition-on-individual-words-from-a-small-vocabulary-eg-yes-no-open-instead-of-long-phrases-or-multi-syllable-words",
+            "notRelevant": false
+        },
+        {
+            "name": "Allow difficulty level to be altered during gameplay, either through settings or adaptive difficulty",
+            "goalType": 5,
+            "description": "The decision on which difficulty level is most appropriate is often as a result of trying to play the game on the default setting. Allowing a choice during gameplay or upon death means being able choose to play at an appropriate level without having to lose your progress so far.",
+            "isComplete": false,
+            "tooltipTriggered": false,
+            "url": "http://gameaccessibilityguidelines.com/allow-difficulty-level-to-be-altered-during-gameplay-either-through-settings-or-adaptive-difficulty",
+            "notRelevant": false
+        },
+        {
+            "name": "Include some people with impairments amongst play-testing participants",
+            "goalType": 5,
+            "description": "Guidelines provide a very useful base checklist but are a one size fits all. Playtesting with disabled gamers is always enlightening, and gives insights specific to your individual game. Testing as early as possible is critical, as this allows you to put any findings into action for minimal cost.",
+            "isComplete": false,
+            "tooltipTriggered": false,
+            "url": "http://gameaccessibilityguidelines.com/include-some-people-with-impairments-amongst-play-testing-participants",
+            "notRelevant": false
+        },
+        {
+            "name": "Offer a means to bypass gameplay elements that aren’t part of the core mechanic, via settings or in-game skip option",
+            "goalType": 5,
+            "description": "Additional skill requirements are often added in for variety, for example a puzzle sequence in a first person shooter or a button mashing round in a quiz game. These can add interest, but also exclude unnecessarily. A good solution is to make these challenges that sit outside the core mechanic optional, either through a contextual skip option, settings, or as part of a difficulty level choice.",
+            "isComplete": false,
+            "tooltipTriggered": false,
+            "url": "http://gameaccessibilityguidelines.com/offer-a-means-to-bypass-gameplay-elements-that-arent-part-of-the-core-mechanic-via-settings-or-in-game-skip-option",
+            "notRelevant": false
+        },
+        {
+            "name": "Include assist modes such as auto-aim and assisted steering",
+            "goalType": 5,
+            "description": "Assist modes are optional settings to compensate for lack of speed or precision, allowing gamers with difficulties in these areas to take part on a level playing field. They also have strong benefits for people who are simply less proficient at the game, allowing them to still experience the same progression and enjoyment.",
+            "isComplete": false,
+            "tooltipTriggered": false,
+            "url": "http://gameaccessibilityguidelines.com/include-assist-modes-such-as-auto-aim-and-assisted-steering",
+            "notRelevant": false
+        },
+        {
+            "name": "Provide a manual save feature",
+            "goalType": 5,
+            "description": "Lack of manual save, for example allowing progress to be saved only at checkpoints, can exclude gamers who are physically only able to to play for short bursts of time, or who may have to stop playing suddenly without warning.",
+            "isComplete": false,
+            "tooltipTriggered": false,
+            "url": "http://gameaccessibilityguidelines.com/provide-a-manual-save-feature",
+            "notRelevant": false
+        },
+        {
+            "name": "Provide an autosave feature",
+            "goalType": 5,
+            "description": "Players often do not know that a section will be problematic for their particular impairment (such as a quick time event) until they come across it, meaning a quick death and having to replay without a recent manual save in place – a particular issue if you have a motor impairment that already makes play lengthy and difficult.",
+            "isComplete": false,
+            "tooltipTriggered": false,
+            "url": "http://gameaccessibilityguidelines.com/provide-an-autosave-feature",
+            "notRelevant": false
+        },
+        {
+            "name": "Allow a preference to be set for playing online multiplayer with/without others who are using accessibility features that could give a competitive advantage",
+            "goalType": 5,
+            "description": "Features such as assists can be abused by unscrupulous players as a means to gain an unfair advantage in competitive multiplayer games. However, excluding these features means excluding players who rely on them.",
+            "isComplete": false,
+            "tooltipTriggered": false,
+            "url": "http://gameaccessibilityguidelines.com/allow-a-preference-to-be-set-for-playing-online-multiplayer-withwithout-others-who-are-using-accessibility-features-that-could-give-a-competitive-advantage",
+            "notRelevant": false
+        },
+        {
+            "name": "Allow gameplay to be fine-tuned by exposing as many variables as possible",
+            "goalType": 5,
+            "description": "Opening up as many existing variables as possible to player configuration can allow the same basic mechanic to be opened up to a huge range of abilities.Through settings the same base game can become everything from a simple cause and effect activity all the way through to a complex highly motor-demanding game.",
+            "isComplete": false,
+            "tooltipTriggered": false,
+            "url": "http://gameaccessibilityguidelines.com/allow-gameplay-to-be-fine-tuned-by-exposing-as-many-variables-as-possible",
+            "notRelevant": false
+        }
+    ],
+    "advancedGoals": [
+        {
+            "name": "Allow play in both portrait and landscape",
+            "goalType": 0,
+            "description": "Some mobile/tablet players have their devices mounted in a fixed position, such as on a wheelchair mount or bed frame, so are only able to play in a specific orientation. Others still have personal preferences, such as preferring portrait while playing one-handed on public transport, but landscape while on a couch at home.",
+            "isComplete": false,
+            "tooltipTriggered": false,
+            "url": "http://gameaccessibilityguidelines.com/allow-play-in-both-landscape-and-portrait/",
+            "notRelevant": false
+        },        
+        {
+            "name": "Do not make precise timing essential to gameplay",
+            "goalType": 0,
+            "description": "There are gamers who find any kind of timing difficult or impossible. Many games of course are inherently about timing, but others are not, so avoid including requirements for timing if there is a way to avoid them. Even in games for which the core mechanic isn’t about making precise movements, precise movement sections are commonly added to provide variety. Including them still has value, so making precise timing optional allows the benefits without the disadvantages. Making them optional can even be possible in what seem to be extremely time dependent games.",
+            "isComplete": false,
+            "tooltipTriggered": false,
+            "url": "http://gameaccessibilityguidelines.com/do-not-make-precise-timing-essential-to-gameplay-offer-alternatives-actions-that-can-be-carried-out-while-paused-or-a-skip-mechanism/",
+            "notRelevant": false
+        },        
+        {
+            "name": "Include a cool-down period (post acceptance delay) of 0.5 seconds between inputs",
+            "goalType": 0,
+            "description": "Conditions such as Parkinsons, essential tremor and cerebral palsy can reduce likelyhood of defined single presses, with slippage or shakiness common. This can result in unintended multiple presses, which can be a significant issue if interacting is already a drawn out process. If aiming for elderly or motor impaired players, including a simple cooldown period where no further input is recognised for a short period afterwards can avoid this",
+            "isComplete": false,
+            "tooltipTriggered": false,
+            "url": "http://gameaccessibilityguidelines.com/include-a-cool-down-period-post-acceptance-delay-of-0-5-seconds-between-inputs/",
+            "notRelevant": false
+        },        
+        {
+            "name": "Provide very simple control schemes that are compatible with assistive technology devices",
+            "goalType": 0,
+            "description": "Players with motor impairments each have their own unique requirements, often met through unique and specialised combinations of hardware. However these combinations are fairly standardised, through tech such as accessibility switches (famously used by Stephen Hawking), which are simple binary input devices such as blink detectors or microswitches that map to buttons or keypresses, or eye tracking, which maps directly to analogue mouse position/movements.",
+            "isComplete": false,
+            "tooltipTriggered": false,
+            "url": "http://gameaccessibilityguidelines.com/provide-very-simple-control-schemes-that-are-compatible-with-assistive-technology-devices-such-as-switch-or-eye-tracking/",
+            "notRelevant": false
+        },
+        {
+            "name": "Provide an option to disable blood and gore",
+            "goalType": 1,
+            "description": "Blood and gore can be problematic not just due to preference or age, but also due to conditions where it can cause distress and discomfort. It is of course – depending on the mechanic and genre – desirable and / or an important source of realism for many other people. So providing an option allows both ends of the spectrum to be met.",
+            "isComplete": false,
+            "tooltipTriggered": false,
+            "url": "http://gameaccessibilityguidelines.com/provide-an-option-to-disable-blood-and-gore/",
+            "notRelevant": false
+        },
+        {
+            "name": "Provide pre-recorded voiceovers for all text, including menus and installers",
+            "goalType": 1,
+            "description": "Self-voicing is more expensive to produce, but can be technically easier to achieve than screenreader support and can produce better results. Blind gamers often associate screenreaders with work, and enjoy as much ear-candy and immersion as possible in games. Voiceovers allow this, making it possible for the information to be communicated within the game, rather than through external software.",
+            "isComplete": false,
+            "tooltipTriggered": false,
+            "url": "http://gameaccessibilityguidelines.com/provide-full-internal-self-voicing-for-all-text-including-menus-and-installers",
+            "notRelevant": false
+        },
+        {
+            "name": "Avoid any sudden unexpected movement or events",
+            "goalType": 1,
+            "description": "Unexpected/unpredictable sensory shocks, (for example a large sudden movement or sound) can cause significant issues for people with some cognitive impairments, particularly autistic spectrum. In some cases the level of distress can be intense, enough to force them to stop playing immediately and take some time to recover.",
+            "isComplete": false,
+            "tooltipTriggered": false,
+            "url": "http://gameaccessibilityguidelines.com/avoid-any-sudden-unexpected-movement-or-events",
+            "notRelevant": false
+        },
+        {
+            "name": "Allow all narrative and instructions to be replayed",
+            "goalType": 1,
+            "description": "Either short or long term memory issues or can make it difficult to remember where you are in a narrative, or situational impairments such as simply having had a bit of time pass since last time you played the game. Attention related conditions such as ADHD can also mean important information is missed.",
+            "isComplete": false,
+            "tooltipTriggered": false,
+            "url": "http://gameaccessibilityguidelines.com/allow-all-narrative-and-instructions-to-be-replayed",
+            "notRelevant": false
+        },
+        {
+            "name": "Use symbol-based chat (smileys etc)",
+            "goalType": 1,
+            "description": "Offering supplementary means of communication allows players with no or low literacy a means to easily express themselves. If developing specifically for these audiences, consider making non-textual communication the sole means of communication, to ensure that it is possible between all players rather than a one way process.",
+            "isComplete": false,
+            "tooltipTriggered": false,
+            "url": "http://gameaccessibilityguidelines.com/use-symbol-based-chat-smileys-etc",
+            "notRelevant": false
+        },
+        {
+            "name": "Provide an option to turn off / hide all non interactive elements",
+            "goalType": 1,
+            "description": "Judging which elements are interactive and which aren’t can be a significant issue for some people, who may not understand the same metaphors and conventions as others. If developing for more profound cognitive impairments consider removing all background elements. The backgrounds however may still be of great benefit to other players within the same demographic, so allowing them to be turned on/off via settings will allow both groups to benefit.",
+            "isComplete": false,
+            "tooltipTriggered": false,
+            "url": "http://gameaccessibilityguidelines.com/provide-an-option-to-turn-off-hide-all-non-interactive-elements",
+            "notRelevant": false
+        },
+        {
+            "name": "Allow the font size to be adjusted",
+            "goalType": 2,
+            "description": "Although setting a good default size is beneficial, there isn’t a single set size that everyone can read, due to differences in levels of visual impairments and differences in screen size or viewing distance. Although more difficult to implement, allowing players to choose a font size that best suits their abilities and situation is much more effective.",
+            "isComplete": false,
+            "tooltipTriggered": false,
+            "url": "http://gameaccessibilityguidelines.com/allow-the-font-size-to-be-adjusted",
+            "notRelevant": false
+        },
+        {
+            "name": "Provide a pingable sonar-style audio map",
+            "goalType": 2,
+            "description": "A map that can be triggered to ping inportant objects/enemies via a sonar style pulse can help make complex 3D environments navigable by people with very little residual vision.",
+            "isComplete": false,
+            "tooltipTriggered": false,
+            "url": "http://gameaccessibilityguidelines.com/provide-a-pingable-sonar-style-audio-map",
+            "notRelevant": false
+        },
+        {
+            "name": "Provide pre-recorded voiceovers for all text, including menus and installers",
+            "goalType": 2,
+            "description": "Either  this or screenreader support are essential for use by players with little to no residual vision or literacy. Self-voicing is more expensive to produce, but can be technically easier to achieve than screenreader support and can produce better results. Blind gamers often associate screenreaders with work, and enjoy as much ear-candy and immersion as possible in games. Voiceovers allow this, making it possible for the information to be communicated within the game, rather than through external software.",
+            "isComplete": false,
+            "tooltipTriggered": false,
+            "url": "http://gameaccessibilityguidelines.com/provide-full-internal-self-voicing-for-all-text-including-menus-and-installers",
+            "notRelevant": false
+        },
+        {
+            "name": "Provide a voiced GPS",
+            "goalType": 2,
+            "description": "Like audio maps, voiced GPS – spoken overview of the location of nearby objects – can be used as a tool for people with little to no residual vision to navigate complex 3D environments.",
+            "isComplete": false,
+            "tooltipTriggered": false,
+            "url": "http://gameaccessibilityguidelines.com/provide-a-voiced-gps",
+            "notRelevant": false
+        },
+        {
+            "name": "Allow easy orientation to / movement along compass points",
+            "goalType": 2,
+            "description": "Allowing players to jump directly to facing a compass point helps players with little to no residual vision to avoid becoming disoriented.",
+            "isComplete": false,
+            "tooltipTriggered": false,
+            "url": "http://gameaccessibilityguidelines.com/allow-easy-orientation-to-movement-along-compass-points",
+            "notRelevant": false
+        },
+        {
+            "name": "Ensure that all key actions can be carried out by digital controls ",
+            "goalType": 2,
+            "description": "Complex analogue input devices such as mice or joysticks are difficult to use if you’re a low vision gamer, and are unable to see exactly where the cursor is or where you’re facing.",
+            "isComplete": false,
+            "tooltipTriggered": false,
+            "url": "http://gameaccessibilityguidelines.com/ensure-that-all-key-actions-can-be-carried-out-by-digital-controls-pads-keys-presses-with-more-complex-input-eg-analogue-gesture-not-required-and-included-only-as-supplementary-alternati",
+            "notRelevant": false
+        },
+        {
+            "name": "Ensure screenreader support, including menus & installers",
+            "goalType": 2,
+            "description": "Many game mechanics aren’t suited to being made screenreader accessible, but anything text-based in particular is an ideal candidate. Or interface based games, games such as Football Manager or Hearthstone would be perfectly suited to being made accessible through screenreader support, speaking out the labels of UI elements that recieve focus.",
+            "isComplete": false,
+            "tooltipTriggered": false,
+            "url": "http://gameaccessibilityguidelines.com/ensure-screenreader-support-including-menus-installers",
+            "notRelevant": false
+        },
+        {
+            "name": "Use distinct sound / music design for all objects and events",
+            "goalType": 2,
+            "description": "Good sound design, ensuring that each distinct action has an equally distinct sound, can make even mainstream games completely accessible to players with little or no vision. Fighting games are generally great examples of this – every action has a unique sound, and the simple 2D mechanic means that the sound can easily be located in stereo space. Blind gamer Brice Mellen famously beat Mortal Kombat creator Ed Boon at his own game purely through the excellent sound design.",
+            "isComplete": false,
+            "tooltipTriggered": false,
+            "url": "http://gameaccessibilityguidelines.com/use-distinct-sound-music-design-for-all-objects-and-events",
+            "notRelevant": false
+        },
+        {
+            "name": "Simulate binaural recording",
+            "goalType": 2,
+            "description": "Binaural recording means constructing an accurate artificial head, and placing microphones in the position of the eardrums. The resulting audio accurately records the effect of the sound travelling through the skull and ears, resulting in incredibly accurate positional sound that can be played back through any standard stereo headphones.",
+            "isComplete": false,
+            "tooltipTriggered": false,
+            "url": "http://gameaccessibilityguidelines.com/simulate-binaural-recording",
+            "notRelevant": false
+        },
+        {
+            "name": "Provide an audio description track",
+            "goalType": 2,
+            "description": "Something that is increasing in prevalence in other media (particularly film) but not yet for games is audio description; additional spoken audio that describes what is happening visually, usually communicated through natural breaks in the audio or less commonly by pausing the media while the description is spoken out.",
+            "isComplete": false,
+            "tooltipTriggered": false,
+            "url": "http://gameaccessibilityguidelines.com/provide-an-audio-description-track/",
+            "notRelevant": false
+        },
+        {
+            "name": "Ensure that subtitles/captions are cut down to and presented at an appropriate words-per-minute for the target age-group",
+            "goalType": 3,
+            "description": "Speech often happens at a faster pace than reading speed, especially bearing in mind the 17% of the UK/US population that has some difficulty reading, and bearing in mind that for people born deaf, the language in the subtitles is not their first language. There are established guidelines from the TV/Movie industry for words per minute depending on age group, including how to sub down the text to fit within the words per minute.",
+            "isComplete": false,
+            "tooltipTriggered": false,
+            "url": "http://gameaccessibilityguidelines.com/ensure-that-subtitlescaptions-are-cut-down-to-and-presented-at-an-appropriate-words-per-minute-for-the-target-age-group",
+            "notRelevant": false
+        },
+        {
+            "name": "Provide signing",
+            "goalType": 3,
+            "description": "Sign language is rarely seen in games, but it is another valid means of communicating information to people who are deaf / hard of hearing.",
+            "isComplete": false,
+            "tooltipTriggered": false,
+            "url": "http://gameaccessibilityguidelines.com/provide-signing",
+            "notRelevant": false
+        },
+        {
+            "name": "Use symbol-based chat (smileys etc)",
+            "goalType": 3,
+            "description": "Offering supplementary means of communication allows players with no or low literacy a means to easily express themselves. If developing specifically for these audiences, consider making non-textual communication the sole means of communication, to ensure that it is possible between all players rather than a one way process.",
+            "isComplete": false,
+            "tooltipTriggered": false,
+            "url": "http://gameaccessibilityguidelines.com/use-symbol-based-chat-smileys-etc",
+            "notRelevant": false
+        },
+        {
+            "name": "Base speech recognition on hitting a volume threshold (eg. 50%) instead of words",
+            "goalType": 4,
+            "description": "Although it is dependent on a game mechanic that requires a simple timed binary input rather than multiple choices, relying solely on a volume threshold reduces the vocal requirements to simply being able to make a voluntary sound, so even non-verbal players are able to trigger the action. It also significantly reduces development costs, as speech recognition algorithms are not required.",
+            "isComplete": false,
+            "tooltipTriggered": false,
+            "url": "http://gameaccessibilityguidelines.com/base-speech-recognition-on-hitting-a-volume-threshold-eg-50-instead-of-words",
+            "notRelevant": false
+        },
+        {
+            "name": "Include every relevant category of impairment (motor, cognitive etc) amongst play-testing participants, in representative numbers based on age / demographic of target audience",
+            "goalType": 5,
+            "description": "For best results from play testing recruit according to the demographics of your target audience. For average gamer age, aim for around 20% of playtesters to represent a mix of the 4 main types of impairment (motor/visual/cognitive/hearing), or slightly more if your game involves speech chat/recognition. For children, focus on motor and cognitive impairment. For over 65s, ensure all groups are represented, and increase the proportion to 50%.",
+            "isComplete": false,
+            "tooltipTriggered": false,
+            "url": "http://gameaccessibilityguidelines.com/include-every-relevant-category-of-impairment-motor-cognitive-etc-amongst-play-testing-participants-in-representative-numbers-based-on-age-demographic-of-target-audience",
+            "notRelevant": false
+        },
+        {
+            "name": "Allow settings to be saved to different profiles, at either game or platform level",
+            "goalType": 5,
+            "description": "Hardware can be shared between several players, each with their own different needs and preferences. Allowing multiple profiles to be saves prevents settings having to be reconfigured every time.",
+            "isComplete": false,
+            "tooltipTriggered": false,
+            "url": "http://gameaccessibilityguidelines.com/allow-settings-to-be-saved-to-different-profiles-at-either-game-or-platform-level",
+            "notRelevant": false
+        },
+        {
+            "name": "Realtime text <-> speech transcription",
+            "goalType": 5,
+            "description": "An incredibly useful piece of functionality for online communication would be real-time transcription between speech and text, allowing people to communicate according to their own preferences and receive communication according to their own preferences too, regardless of which method other players are using. It benefits people from all groups of impairment – difficulty seeing, reading and understanding text, typing, hearing other players’ speech, and speaking.",
+            "isComplete": false,
+            "tooltipTriggered": false,
+            "url": "http://gameaccessibilityguidelines.com/realtime-text-speech-transcription/",
+            "notRelevant": false
+        }
+    ]
+}

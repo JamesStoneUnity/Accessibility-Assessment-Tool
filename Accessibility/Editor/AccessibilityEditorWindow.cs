@@ -492,7 +492,7 @@ public class AccessibilityEditorWindow : EditorWindow
     [MenuItem("Accessibility/How to Use")]
     static void ShowHelp()
     {
-        
+        EditorUtility.DisplayDialog("Help", "How to use the accessibility tracker: \n \n Simply open the Accessibility menu and open the accessibility window \n \n This window allows you to track each accessibility goal. Please click the learn more buttons in order to read relevant articles and data on that particular goal \n \n As you clear off each goal, you can track your progress to completion \n \n Should any goal not be relevant to your game, simply check the not relevant button and you will remove that from your overall target score \n \n You can reset the data at anytime by selecting Restore Data from the menu \n \n If the data file is accidently deleted, you can create a new one from the menu", "Close");
     }
 }
 

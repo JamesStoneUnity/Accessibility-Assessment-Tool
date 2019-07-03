@@ -5,6 +5,8 @@ using UnityEngine;
 using UnityEngine.Assertions.Must;
 using UnityEngine.Experimental.UIElements;
 
+// made during Unity Hackweek 2019 by James Stone - @epicnerdrage
+
 public class GameAccessibilityCreator : ScriptableObject
 {
     public GameAccessibilityData accessibilityData;

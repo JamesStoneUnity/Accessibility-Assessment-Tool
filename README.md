@@ -11,3 +11,6 @@ This project was coded by me during hackweek. The code isnt pretty, its function
 
 James Stone
 @epicnerdrage
+
+Reddit thread
+https://www.reddit.com/r/Unity3D/comments/c8qktf/at_unity_hackweek_i_made_a_tool_to_help_you_all/

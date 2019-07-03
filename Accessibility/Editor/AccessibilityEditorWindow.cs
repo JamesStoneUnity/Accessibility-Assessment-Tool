@@ -5,6 +5,8 @@ using UnityEditor;
 using UnityEngine.Profiling;
 using UnityEngine.Serialization;
 
+// made during Unity Hackweek 2019 by James Stone - @epicnerdrage
+
 public class AccessibilityEditorWindow : EditorWindow
 {
     public bool groupEnabled;

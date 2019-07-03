@@ -1,6 +1,8 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
 
+// made during Unity Hackweek 2019 by James Stone - @epicnerdrage
+
 [System.Serializable]
 public class GameAccessibilityData
 {

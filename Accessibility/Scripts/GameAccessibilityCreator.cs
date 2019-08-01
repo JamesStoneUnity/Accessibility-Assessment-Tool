@@ -1,9 +1,7 @@
-﻿using System.Collections.Generic;
+using System.Collections.Generic;
 using System.IO;
 using UnityEditor;
 using UnityEngine;
-using UnityEngine.Assertions.Must;
-using UnityEngine.Experimental.UIElements;
 
 // made during Unity Hackweek 2019 by James Stone - @epicnerdrage
 
@@ -11,6 +9,8 @@ public class GameAccessibilityCreator : ScriptableObject
 {
     public GameAccessibilityData accessibilityData;
 }
+
+#if UNITY_EDITOR
 
 public class CreateData : MonoBehaviour
 {
@@ -28,3 +28,5 @@ public class CreateData : MonoBehaviour
         scriptableObject.accessibilityData = JsonUtility.FromJson<GameAccessibilityData>(File.ReadAllText("Assets/Plugins/Accessibility/data.json"));
     }
 }
+
+#endif
